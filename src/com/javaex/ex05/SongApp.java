@@ -5,7 +5,7 @@ public class SongApp {
 	public static void main(String[] args) {
 		
 		Song s1 = new Song();
-		s1.setTitle("좋은날");
+		s1.setTitle("좋은날"); // 단축키: 
 		s1.setArtist("아이유");
 		s1.setAlbum("Real");
 		s1.setComposer("이민수");
@@ -19,6 +19,9 @@ public class SongApp {
 		s2.setComposer("G-DRAGON");
 		s2.setYear(2007);
 		s2.setTrack(2);
+		
+//		Song s2 = new Song("거짓말" , "BIGBANG" , "Always");
+//		s2.setTrack(2);
 		
 		Song s3 = new Song();
 		s3.setTitle("벚꽃엔딩");

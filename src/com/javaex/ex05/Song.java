@@ -12,6 +12,8 @@ public class Song {
 	
 	// 생성자
 	// 메소드-gs
+	// alt +shift+s를 동시에 누르면 (Source > generateo getter setter) 자동생성됨
+	//ctrl+shift+f는 기본값으로 정렬이 된다!
 	
 	public void setTitle(String title) {
 		this.title = title;
@@ -32,7 +34,7 @@ public class Song {
 		this.track = track;
 	}
 	
-	public String getTitle() {
+	public String getTitle() { // 읽어주는거라 재료를 줄 필요가 없다.
 		return this.title;
 	}
 	public String getArtist() {
