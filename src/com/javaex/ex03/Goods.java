@@ -15,7 +15,7 @@ public class Goods {
 		this.price = price;//this가 computer에가 가면 computer로, camera에 가면 camera로 변한다 생각하면 됨. 필드에서만 this를 쓴다.
 	}
 	
-	public String getName() {
+	public String getName() {// 돌려주는값이 있으니 여기선 void가 아닌 자료형 써주기
 		return this.name;
 	}
 	public int getPrice() {

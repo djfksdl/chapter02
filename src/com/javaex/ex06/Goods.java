@@ -20,7 +20,7 @@ public class Goods {
 	public Goods(String name, int price) {
 		//메모리에 올리는 일(클래스를 인스턴스화)
 		//this.name = name;//9개라고 생각
-		this(name); // this는 본인이 아니라 다른 생성자 사용하는 입장.
+		this(name); // this는 본인이 아니라 다른 생성자 사용하는 입장: 위에 있는 name의 값을 써주는것
 		//this.price = price;// 추가1개만
 		System.out.println("Good(name, price)");
 	}
