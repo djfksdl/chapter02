@@ -9,7 +9,7 @@ public class TvApp {
 		System.out.println("====");
 		
 		tv.power(true);
-		tv.volume(120);
+		tv.volume(120); //100으로 유지
 		tv.status();
 		System.out.println("====");
 		

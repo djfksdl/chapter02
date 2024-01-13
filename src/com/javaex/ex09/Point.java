@@ -23,7 +23,7 @@ public class Point {
 	//메소드-gs
 	public int getX() {
 		if(this.x <0) {
-			return 0; // 0보다 작으면 0으로 return해주기			
+			return 0; // 값을 읽을때 0보다 작으면 0으로 return해주기			
 		}else {
 			return this.x;
 		}

@@ -24,7 +24,7 @@ public class Point {
 */	
 	public Point(int x, int y) {
 //		this(); 이걸 쓰면 디폴트 Point()를 쓰는것이다. this()안에 파라미터가 동일해야 쓸수있다.
-		this(x); // 니가 메모리에 올려. x값 올린것도 위에 x값에 올라감 
+		this(x); // public Point(int x)한테 '니가 메모리에 올려'. x값 올린것도 위에 x값이 올라감 
 		//메모리에 올리는 일 - 위에서 셋팅된게 올라감
 		this.y = y;//이게 x보다 먼저 올라가면 안됨. 메모리에 올리는 일을 먼저 해야하는데 y값부터 넣고 메모리에 올린다는게 말이 안되니까
 		System.out.println("Point(int x, int y)"); // x값은 위에서 찍힘

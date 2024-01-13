@@ -4,7 +4,7 @@ public class PointApp {
 
 	public static void main(String[] args) {
 		//p1
-		Point p1 = new Point(); //오른쪽을 메모리에 올린다. (스택)p1을 따라가면 Point가 있다.
+		Point p1 = new Point(); //오른쪽을 메모리에 올린다. (스택)p1을 따라가면 (스택)Point가 있다.
 		p1.setX(5);
 		p1.setY(5);
 		

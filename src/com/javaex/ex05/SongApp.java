@@ -5,7 +5,7 @@ public class SongApp {
 	public static void main(String[] args) {
 		
 		Song s1 = new Song();
-		s1.setTitle("좋은날"); // 단축키: 
+		s1.setTitle("좋은날"); 
 		s1.setArtist("아이유");
 		s1.setAlbum("Real");
 		s1.setComposer("이민수");

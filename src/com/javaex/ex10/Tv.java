@@ -16,7 +16,7 @@ public class Tv {
 		this.volume = volume;
 		this.power = power;
 	}
-	// 메소드-gs
+	// 메소드-gs : getter만 작성
 	public int getChannel() {
 //		if(channel<=1 || channel>=255) {
 //			return 50;
