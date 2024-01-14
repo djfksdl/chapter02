@@ -24,9 +24,9 @@ public class GoodsApp {
 		//System.out.println(cup.getCount());//전역을 쓰면 굳이 들어가서 쓸 필요없다.
 		//System.out.println(computer.getCount());// 전체카운트 알고싶은데 굳이 컵이나 컴퓨터에 들어가서 읽어야한다-> 어색함
 		
-		System.out.println(camera.count);
+		System.out.println(camera.count); //이렇게 읽을 수도 있긴함. 근데 camera한테 물어보는거. 전역인데 굳이 가서 물어볼 필요는 없다.
 		
-		System.out.println(Goods.count);
+		System.out.println(Goods.count); 
 		
 	}
 }

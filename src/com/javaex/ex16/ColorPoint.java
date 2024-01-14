@@ -14,23 +14,23 @@ public class ColorPoint extends Point{
 	//1.
 	public ColorPoint(String color) {
 //		부모의 생성자 가져와야함. 근데 디폴트 생성자는 생략해도된다. 이럴땐 안써도되는 경우가 있음.
-//		부모의 기본 생성자 호출  -> 없어서 에러남.
-//		super(102,103); //이렇게 되면 맨날 102,103만들어가있음. 잘못됨
+//		부모의 기본 생성자 호출  -> 없어서 에러남. ->부모에서 디폴트생성자 만들어주고 다시 써줌.
+//		super(102,103); //이렇게 되면 맨날 102,103만들어가있음. 잘못됨-> 그래서 안에 값은 안써줌
 		super();
 		this.color = color;
 		System.out.println("ColorPoint(1)");
 	}
 	//2.
 //	public ColorPoint(int x, int y, String color) {
-////		super(x,y); // 부모의 파라미터 2개 있는 생성자 호출
+////	super(x,y); // 부모의 파라미터 2개 있는 생성자 호출
 //		//super(); - 원래 메인 임무는 메모리에 올리는것 그래서 super(x,y)로 또 올릴 순 없다. 둘중 하나만. 값 넣는건 부가 서비스
 //		super(x,y);
 //		this.color = color;
 //	}
 	//3.
 	public ColorPoint(int x, int y, String color) {
-		super(); 		//부모의 기본생성자 호출
-//		super.x = x; private라 가져올 수 없다. 이게 되면 캡슐화 대전제가 흔들림. 겟셋을 쓸 필요가 없어진다.
+		super();//부모의 기본생성자 호출, 메모리에만 올려준것
+//		super.x = x; private라 가져올 수 없다. 이게 되면 캡슐화 대전제가 흔들림. get,set을 쓸 필요가 없어진다.
 		super.setX(x);
 		super.setY(y);
 		this.color = color;

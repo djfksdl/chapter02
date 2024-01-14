@@ -9,6 +9,7 @@ public class Student extends Person{
 	
 	//생성자
 	public Student() { // 
+		//super()는 생략가능
 		System.out.println("Studemt()");
 	};
 	public Student (String name , int age, String schoolName) {
@@ -51,7 +52,7 @@ public class Student extends Person{
 	//메소드 - 일반
 	@Override
 	public String toString() {
-		return "Student [학교:" + schoolName +"이름" + getName() + "나이 "+ "getAge()" ;
+		return "Student [학교:" + schoolName +" 이름: " + getName() + "나이: "+ getAge()+"]" ;
 	}
 	
 	

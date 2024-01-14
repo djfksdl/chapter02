@@ -17,8 +17,8 @@ public class GoodsApp {
 		goodsArray[1] = computer;
 		goodsArray[2] = cup;
 		
-		//System.out.println(camera.getName()); // get를 이용해서 
-		//System.out.println(goodsArray[0].getName());
+		//System.out.println(camera.getName()); // get를 이용해서 값을 읽어줌. private로 접근제한자가 쓰여있으니까 
+		//System.out.println(goodsArray[0].getName()); //배열로쓰면 camera는 0번째 배열방에 있는 name을 읽어주면 됨
 		
 		//System.out.println(computer.getPrice());
 		//System.out.println(goodsArray[1].getPrice());
@@ -31,7 +31,7 @@ public class GoodsApp {
 		
 		int count = 0;
 		for(int i=0; i<goodsArray.length; i++) {
-			if(goodsArray[i] != null) { // = 주소가 있으면
+			if(goodsArray[i] != null) { // = '주소가 있으면'
 				//카운트 +
 				goodsArray[i].showInfo();
 				count = count+1;
