@@ -14,9 +14,10 @@ public class Ractangle extends Shape {
 	public Ractangle(int width, int height, String fillColor, String lineColor) {// 자동으로 만들어도 추가할거 있으면 추가해야함
 		/*
 		 * super(); //가져온건 필드에 접근 못하니까(private) g,s로 값 넣어주면됨
-		 * super.setFillColor(fillColor); super.setLineClolr(lineColor);
-		 * 
-		 * this.width = width; this.height = height; 또는,
+		 * super.setFillColor(fillColor); 
+		 * super.setLineClolr(lineColor);
+		 * this.width = width;
+		 * this.height = height; 또는,
 		 */
 
 		super(fillColor, lineColor); // 부모의 디폴트생성자 말고 다 있는 생성자를 사용하는것

@@ -48,6 +48,6 @@ public class Ractangle extends Shape {
 		return "Ractangle [width=" + width + ", height=" + height + ", getFillColor()=" + super.getFillColor()
 				+ ", getLineClolr()=" + getLineClolr() + "]";
 	}
-	//위에 오버라이드를 빼면 toString을 다른이름으로 써서 하면 작동됨. 오버라이드는 같은 이름을 썼을때 작동하는걸 의미를 생각하기
+	//위에 오버라이드를 빼고 toString을 다른이름으로 써서 하면 작동됨. 오버라이드는 같은 이름을 썼을때 작동하는걸 의미를 생각하기
 	
 }
