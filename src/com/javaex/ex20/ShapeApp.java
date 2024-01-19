@@ -22,7 +22,7 @@ public class ShapeApp {
 		
 		for(int i =0; i<sArray.length; i++) {
 //			System.out.println(sArray[i].toString());
-			sArray[i].draw();//부모껄 실행했는데 자식꺼가 부모껄로 올라간거임 . 부모것만 보이는데 이름 겹치는 애들 -> 오버로딩이나 오버라이딩이거나하는 상황이다.
+			sArray[i].draw();//부모껄 실행했는데 자식꺼(draw())가 부모껄로 올라간거임. 부모것만 보이는데 이름 겹치는 애들 -> 오버로딩이나 오버라이딩이거나하는 상황이다.
 		}
 		
 		//사각형의 가로값 가져오기(가려놓은거의 기능을 써야할때)
