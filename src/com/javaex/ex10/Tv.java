@@ -17,7 +17,7 @@ public class Tv {
 		this.power = power;
 	}
 	// 메소드-gs : getter만 작성
-	public int getChannel() {
+	public int getChannel() {//조건이 작동안하는 이유는 getChannel이라는 이름이 동일하지 않아서임! 쓸려면 channel이 아니라 getChannel로 써줘야한다. 알아서 인식되지 않음!
 //		if(channel<=1 || channel>=255) {
 //			return 50;
 //		}else {
