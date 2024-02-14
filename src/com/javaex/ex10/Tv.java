@@ -66,7 +66,7 @@ public class Tv {
 		}else {
 			this.channel = channel -1;
 		}
-		System.out.println("채널: " + this.channel);
+		System.out.println("채널: " + this.channel);//getChannel을 써보면 get에서 쓴 범위 적용 가능할듯??
 	}
 	
 	public void volume(int volume) {
